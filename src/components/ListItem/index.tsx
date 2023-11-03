@@ -32,7 +32,7 @@ const ListItem = ({ text, isLink, href, period, employmentStatus, children }: Pr
         {typeof employmentStatus === 'string' && (
           <span className={styles['employment-status']}>{employmentStatus}</span>
         )}
-        {typeof period === 'string' && period}
+        {typeof period === 'string' && <span className={styles.period}>{period}</span>}
         {children !== undefined && children}
       </li>
     );
