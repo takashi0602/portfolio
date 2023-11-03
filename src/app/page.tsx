@@ -30,8 +30,8 @@ export default function Home() {
         <h2>学歴・職歴</h2>
         <ul>
           <ListItem
-            text="株式会社ゆめみ"
             isLink
+            text="株式会社ゆめみ"
             href="https://www.yumemi.co.jp/"
             period="（2021/04 ~ 現在）"
             employmentStatus="フルタイム"
@@ -42,9 +42,9 @@ export default function Home() {
             </ul>
           </ListItem>
           <ListItem
+            isLink
             text="株式会社インパス"
             href="https://www.impath.co.jp/"
-            isLink
             period="（2019/12 ~ 2021/03）"
             employmentStatus="パートタイム"
           >
@@ -54,9 +54,9 @@ export default function Home() {
             </ul>
           </ListItem>
           <ListItem
+            isLink
             text="株式会社chatbox"
             href="https://chatbox-inc.com/"
-            isLink
             period="（2017/07 ~ 2019/12）"
             employmentStatus="パートタイム"
           >
@@ -66,9 +66,9 @@ export default function Home() {
             </ul>
           </ListItem>
           <ListItem
+            isLink
             text="大阪情報コンピュータ専門学校"
             href="https://www.oic.ac.jp/"
-            isLink
             period="（2017/04 ~ 2021/03）"
           >
             <ul>

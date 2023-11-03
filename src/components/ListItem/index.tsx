@@ -2,23 +2,27 @@ import Link from 'next/link';
 import styles from './styles.module.css';
 import React from 'react';
 
-type Props = {
+type TextProps = {
   text: string;
-  isLink?: boolean;
-  href?: string;
+  isLink?: undefined;
+  href?: undefined;
+  period?: undefined;
+  employmentStatus?: undefined;
+  children?: React.ReactNode;
+};
+
+type LinkProps = {
+  text: string;
+  isLink: true;
+  href: string;
   period?: string;
   employmentStatus?: 'フルタイム' | 'パートタイム' | 'インターン';
   children?: React.ReactNode;
 };
 
-const ListItem = ({
-  text,
-  isLink = false,
-  href = '',
-  period,
-  employmentStatus,
-  children,
-}: Props) => {
+type Props = TextProps | LinkProps;
+
+const ListItem = ({ text, isLink, href, period, employmentStatus, children }: Props) => {
   if (isLink) {
     return (
       <li>
@@ -28,11 +32,12 @@ const ListItem = ({
         {typeof employmentStatus === 'string' && (
           <span className={styles['employment-status']}>{employmentStatus}</span>
         )}
-        {period}
+        {typeof period === 'string' && period}
         {children !== undefined && children}
       </li>
     );
   }
+
   return (
     <li>
       {text}
