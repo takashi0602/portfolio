@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx,ts,tsx}": "npm run check:eslint",
+  "*.{js,jsx,ts,tsx,json,html,css,yml,yaml}": "npm run check:prettier"
+}
