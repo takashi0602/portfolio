@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { M_PLUS_1p, DotGothic16 } from 'next/font/google';
+import './styles/reset.css';
 import './styles/globals.css';
 
 const mPlus1p = M_PLUS_1p({ weight: ['400', '700'], preload: false, variable: '--font-m-plus-1p' });
