@@ -2,6 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "This is Hideaki Takahashi's portfolio.",
+  "author": "Hideaki Takahashi <t.takashi0602@gmail.com> (https://github.com/takashi0602)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
