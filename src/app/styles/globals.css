@@ -1,6 +1,11 @@
 :root {
   --color-white: 255 255 255;
   --color-black: 51, 51, 51;
+  --color-blue: 0, 148, 217;
+  --color-purple: 136, 72, 152;
+  --color-gray: 173, 173, 173;
+
+  --size-sm: 0.75rem;
   --size-base: 1rem;
   --size-lg: 1.25rem;
   --size-xl: 1.5rem;
@@ -19,4 +24,16 @@ h1 {
 
 h2 {
   font-size: var(--size-lg);
+}
+
+a {
+  color: rgb(var(--color-blue));
+}
+
+a:visited {
+  color: rgb(var(--color-purple));
+}
+
+ul {
+  padding-left: 20px;
 }
