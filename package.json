@@ -4,6 +4,7 @@
   "private": true,
   "description": "This is Hideaki Takahashi's portfolio.",
   "author": "Hideaki Takahashi <t.takashi0602@gmail.com> (https://github.com/takashi0602)",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
