@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { M_PLUS_1p, DotGothic16 } from 'next/font/google';
 import './styles/globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const mPlus1p = M_PLUS_1p({ weight: ['400', '700'], preload: false, variable: '--font-m-plus-1p' });
+const dotGothic16 = DotGothic16({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-dot-gothic-16',
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -11,8 +16,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body className={`${mPlus1p.className} ${dotGothic16.className}`}>{children}</body>
     </html>
   );
 }
