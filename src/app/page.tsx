@@ -7,13 +7,15 @@ export default function Home() {
     <main className={styles.container}>
       <Image
         src="/icon.png"
-        alt="高橋秀明のアイコン"
+        alt="たかしのアイコン"
         className={styles.icon}
         width={200}
         height={200}
         priority
       />
-      <h1 className={styles.name}>高橋 秀明</h1>
+      <h1 className={styles.name}>
+        たかし<span className={styles.alias}>（本名: 高橋 秀明）</span>
+      </h1>
       <p className={styles.catchphrase}>
         Web and App Developer。CSSを愛し、CSSに愛されたエンジニア。
       </p>

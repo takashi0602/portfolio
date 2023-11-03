@@ -8,7 +8,15 @@
 }
 
 .name {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
+}
+
+.alias {
+  font-size: var(--size-base);
+  padding-left: 0.5rem;
 }
 
 .section {
