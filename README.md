@@ -13,3 +13,23 @@ $ npm install
 
 $ npm run dev
 ```
+
+## Scripts
+
+```bash
+$ npm run dev
+
+$ npm run build
+
+$ npm run start
+
+$ npm run check:eslint
+
+$ npm run check:prettier
+
+$ npm run fix:eslint
+
+$ npm run fix:prettier
+
+$ npm run lint-staged
+```
