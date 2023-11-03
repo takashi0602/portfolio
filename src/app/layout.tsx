@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja">
-      <body className={`${mPlus1p.className} ${dotGothic16.className}`}>{children}</body>
+    <html lang="ja" className={`${mPlus1p.variable} ${dotGothic16.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
