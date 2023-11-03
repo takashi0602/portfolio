@@ -81,6 +81,16 @@ export default function Home() {
       </section>
       <section className={styles.section}>
         <h2>リンク</h2>
+        <ul>
+          <ListItem isLink text="X" href="https://twitter.com/takashimelon" />
+          <ListItem isLink text="GitHub" href="https://github.com/takashi0602" />
+          <ListItem isLink text="Qiita" href="https://qiita.com/takashimelon" />
+          <ListItem isLink text="Zenn" href="https://zenn.dev/takashimelon" />
+          <ListItem isLink text="note" href="https://note.com/takashimelon" />
+          <ListItem isLink text="Speaker Deck" href="https://speakerdeck.com/takashimelon" />
+          <ListItem isLink text="LAPRAS" href="https://lapras.com/public/ABBS1PW" />
+          <ListItem isLink text="Wantedly" href="https://www.wantedly.com/id/takashi0602" />
+        </ul>
       </section>
     </main>
   );
