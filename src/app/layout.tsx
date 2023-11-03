@@ -11,8 +11,8 @@ const dotGothic16 = DotGothic16({
 });
 
 export const metadata: Metadata = {
-  title: 'Hideaki Takahashi',
-  description: 'Web and App Developer. CSSを愛し, CSSに愛されたエンジニア.',
+  title: "Takashi's portfolio",
+  description: 'Web and App Developer。CSSを愛し、CSSに愛されたエンジニア。',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

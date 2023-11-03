@@ -8,7 +8,15 @@
 }
 
 .name {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
+}
+
+.alias {
+  font-size: var(--size-base);
+  padding-left: 0.5rem;
 }
 
 .section {
@@ -17,6 +25,10 @@
 
 .section:first-of-type {
   margin-top: 4rem;
+}
+
+.section:last-of-type {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
