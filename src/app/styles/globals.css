@@ -1,0 +1,22 @@
+:root {
+  --color-white: 255 255 255;
+  --color-black: 51, 51, 51;
+  --size-base: 1rem;
+  --size-lg: 1.25rem;
+  --size-xl: 1.5rem;
+}
+
+body {
+  font-family: var(--font-m-plus-1p);
+  font-size: var(--size-base);
+  color: rgb(var(--color-black));
+  background-color: rgb(var(--color-white));
+}
+
+h1 {
+  font-size: var(--size-xl);
+}
+
+h2 {
+  font-size: var(--size-lg);
+}
