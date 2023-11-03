@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import { ListItem } from '@/components/ListItem';
 
 export default function Home() {
   return (
@@ -18,6 +19,12 @@ export default function Home() {
       </p>
       <section className={styles.section}>
         <h2>プロフィール</h2>
+        <ul>
+          <ListItem text="生年月日: 1998/06/02" />
+          <ListItem text="好きな食べ物: メロン" />
+          <ListItem text="趣味: 旅行" />
+          <ListItem text="目標: 47都道府県制覇" />
+        </ul>
       </section>
       <section className={styles.section}>
         <h2>職歴</h2>
