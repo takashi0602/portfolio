@@ -9,9 +9,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "check:eslint": "eslint --max-warnings 0 . --ignore-path .gitignore --cache --cache-strategy content --cache-file=node_modules/.cache/eslint/.eslintcache",
+    "check:eslint": "eslint --max-warnings 0 . --cache --cache-strategy content --cache-file=node_modules/.cache/eslint/.eslintcache",
     "check:prettier": "prettier --check . --ignore-path .gitignore --cache --cache-strategy content",
-    "fix:eslint": "eslint --fix --max-warnings 0 . --ignore-path .gitignore --cache --cache-strategy content --cache-file=node_modules/.cache/eslint/.eslintcache",
+    "fix:eslint": "eslint --fix --max-warnings 0 . --cache --cache-strategy content --cache-file=node_modules/.cache/eslint/.eslintcache",
     "fix:prettier": "prettier --write . --ignore-path .gitignore --cache --cache-strategy content",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
@@ -22,6 +22,8 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.9",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
