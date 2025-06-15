@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 import type { Metadata } from 'next';
 import { M_PLUS_1p, DotGothic16 } from 'next/font/google';
 import './styles/reset.css';
