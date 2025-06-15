@@ -1,0 +1,7 @@
+{
+  "name": "my-app",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  // ref. https://github.com/prettier/prettier/issues/15956
+  "pages_build_output_dir": ".vercel/output/static",
+}
